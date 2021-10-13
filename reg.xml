@@ -1,0 +1,78 @@
+<?xml version = "1.0"?>
+<!--ForexTraders.xml-->
+<?xml-stylesheet type="text/css" href= "currency.css"?>
+<Traders>
+<paragraph> LIST OF PARTICIPANTS </paragraph>
+<Client>
+<name>
+<firstname> CHRIST </firstname>
+<lastname> UNIVERSITY </lastname>
+</name>
+<address>
+<street> CS</street>
+<city> Shraavya_R </city>
+<email> MCS </email>
+<phone> shraavya.r@cs.christuniversity.in </phone>
+</address>
+<currency>
+<Cname>
+.
+</Cname>
+<product> . </product>
+</currency>
+</Client>
+
+<Client>
+<name>
+<firstname> CHRIST </firstname>
+<lastname> UNIVERSITY </lastname>
+</name>
+<address>
+<street> Shruthi </street>
+<city> CS </city>
+<email> shruthi.r@CS.christuniversity.in</email>
+<phone> MCS </phone>
+</address>
+<currency>
+<Cname>.
+</Cname>
+<product> . </product>
+</currency>
+</Client>
+
+<Client>
+<name>
+<firstname> CHRIST </firstname>
+<lastname> UNIVERSITY</lastname>
+</name>
+<address>
+<street> Sneha</street>
+<city>CS </city>
+<email> shruthi.r@cs.christuniversity.in</email>
+<phone> MCS</phone>
+</address>
+<currency>
+<Cname>.
+</Cname>
+<product> . </product>
+</currency>
+</Client>
+
+<Client>
+<name>
+<firstname> CHRIST </firstname>
+<lastname> UNIVERSITY</lastname>
+</name>
+<address>
+<street>  CS  </street>
+<city> Alex </city>
+<email> alex@cs.christuniversity.in</email>
+<phone> MCS </phone>
+</address>
+<currency>
+<Cname> .
+</Cname>
+<product> . </product>
+</currency>
+</Client>
+</Traders>

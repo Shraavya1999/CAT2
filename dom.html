@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  
+<head>
+    <title>
+        Dom Parser Inner Content
+    </title>
+</head>
+  
+<body>
+    <h2>
+        DomParser to get 
+        all HTML content
+    </h2>
+  
+    <p>
+        Click on the button Below 
+        to parse the HTML document
+    </p>
+  
+    <!-- Paragraph element to 
+         show the output -->
+    <p id="output"> </p>
+  
+    <!-- Button to call the 
+         parsing function -->
+    <button onclick="printOutput()">
+        Parse now
+    </button>
+  
+    <script>
+  
+        // Input HTML string to be parsed
+        var htmlInput = `
+    <title> Shraavya_R </title>
+    <div>
+      <span>Christ Deemed to be University</span>
+      
+    </div>
+  `;
+  
+        // Created instance
+        const parser = new DOMParser();
+  
+        // Parsing
+        const parsedDocument =
+                    parser.parseFromString(
+                    htmlInput, "text/html");
+  
+        // Getting text
+        function printOutput() {
+  
+            var allText = parsedDocument
+                     .all[0].textContent;
+  
+            // Printing on page and console
+            document.getElementById("output")
+                        .innerHTML = allText;
+  
+            console.log(parsedDocument
+                        .all[0].textContent);
+        }
+    </script>
+</body>
+  
+</html>
